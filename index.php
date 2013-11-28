@@ -16,7 +16,7 @@ templatePage('ROBLOX Forums', function() {
 				that it is still in development and not everything is implemented yet. Enjoy!</p>
 			</li>
 			<!--/Intro-->
-			<?php include("forums.html"); ?>
+			<?php include("includes/panel.php"); ?>
 		</ul>
 		<!--/Forum list-->
 		<br><br>

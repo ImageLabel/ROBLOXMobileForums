@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forums>
+	<forum id="46">
+		<name>All Things ROBLOX</name>
+		<desc></desc>
+	</forum>
+	<forum id="14">
+		<name>Help (Technical Support and Account Issues)</name>
+		<desc></desc>
+	</forum>
+	<forum id="44">
+		<name>I Made That</name>
+		<desc></desc>
+	</forum>
+	<forum id="43">
+		<name>ROBLOX Contests</name>
+		<desc></desc>
+	</forum>
+	<forum id="45">
+		<name>ROBLOX Global</name>
+		<desc></desc>
+	</forum>
+	<forum id="21">
+		<name>Suggestions &amp; Ideas</name>
+		<desc></desc>
+	</forum>
+	<forum id="13">
+		<name>ROBLOX Talk</name>
+		<desc></desc>
+	</forum>
+	<forum id="18">
+		<name>Off Topic</name>
+		<desc></desc>
+	</forum>
+	<forum id="32">
+		<name>Clans &amp; Guilds</name>
+		<desc></desc>
+	</forum>
+	<forum id="35">
+		<name>Let&quot;s Make a Deal</name>
+		<desc></desc>
+	</forum>
+	<forum id="19">
+		<name>Building Helpers</name>
+		<desc></desc>
+	</forum>
+	<forum id="20">
+		<name>Scripting Helpers</name>
+		<desc></desc>
+	</forum>
+	<forum id="40">
+		<name>Game Design</name>
+		<desc></desc>
+	</forum>
+	<forum id="37">
+		<name>Game Test (www.gametest1.roblox.com)</name>
+		<desc></desc>
+	</forum>
+	<forum id="36">
+		<name>Website Test (sitetest.roblox.com)</name>
+		<desc></desc>
+	</forum>
+	<forum id="41">
+		<name>ROBLOX Mobile</name>
+		<desc></desc>
+	</forum>
+	<forum id="39">
+		<name>ROBLOX Studio 2013</name>
+		<desc></desc>
+	</forum>
+	<forum id="33">
+		<name>Scripters</name>
+		<desc></desc>
+	</forum>
+	<forum id="42">
+		<name>Video Game Fans</name>
+		<desc></desc>
+	</forum>
+	<forum id="38">
+		<name>Forum Games</name>
+		<desc></desc>
+	</forum>
+	<forum id="26">
+		<name>Sports Fans</name>
+		<desc></desc>
+	</forum>
+	<forum id="24">
+		<name>Music Fans</name>
+		<desc></desc>
+	</forum>
+	<forum id="25">
+		<name>Movies/TV/Books</name>
+		<desc></desc>
+	</forum>
+	<forum id="23">
+		<name>Role-Playing</name>
+		<desc></desc>
+	</forum>
+</forums>

@@ -18,6 +18,8 @@ class Forum extends EnhancedObject {
 		$forum = new Forum();
 		$forum->name = $forumXML[0]->name;
 		$forum->desc = $forumXML[0]->desc;
+		//$forum->name = "ROBLOX Forum";
+		//$forum->desc = "";
 		$forum->id   = $id;
 
 		return $forum;
@@ -81,11 +83,11 @@ class Forum extends EnhancedObject {
 				$thread->totalPages = (int) substr(end($pagesArray), 0, -1);
 			}
 			$thread->id      = (int) substr($cells->item(1)->getElementsByTagName('a')->item(0)->getAttribute('href'),28);
-			$thread->author  = User::byName(substr($cells->item(2)->nodeValue, 5));
+			$thread->author  = User::byName(substr($cells->item(3)->nodeValue, 5));
 
 			//Turn hyphens into 0s (helps clarity)
-			$thread->replies = (int) str_replace("-","0",$cells->item(3)->nodeValue);
-			$thread->views   = (int) str_replace("-","0",$cells->item(4)->nodeValue);
+			$thread->replies = (int) str_replace("-","0",$cells->item(4)->nodeValue);
+			$thread->views   = (int) str_replace("-","0",$cells->item(5)->nodeValue);
 
 			// Handling pinned posts
 			$lastPostedSect = $cells->item(5)->nodeValue;

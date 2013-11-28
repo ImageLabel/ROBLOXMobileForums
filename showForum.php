@@ -24,7 +24,7 @@ try {
 			<li data-role = "list-divider">Threads</li>
 			<?php foreach($forum->threads as $thread): ?>
 				<?php if($thread->pinned): ?><li data-icon='star'><?php else: ?><li><?php endif ?>
-				<a href="thread<?= $thread->id ?>">
+				<a href="showThread.php?id=<?= $thread->id ?>">
 					<h3 style='white-space: normal'><?= $thread->title ?></h3>
 					<p>
 						<font color='#2489CE'><?= $thread->author->name ?></font>
@@ -43,12 +43,12 @@ try {
 	<?php }, $forum->totalPages > 1 ? function() use ($forum) { ?>
 		<div style = "text-align: center;" data-role="controlgroup" data-type="horizontal">
 		<?php if ($forum->pageNum != 1): ?>
-			<a href='?page=<?= $forum->pageNum - 1 ?>'
+			<a href='showForum.php?id=<?= $forum->id ?>&page=<?= $forum->pageNum - 1 ?>'
 			   data-theme='e' data-role='button' data-icon='arrow-l' data-iconpos='notext'>Previous</a>
 		<?php endif ?>
 			<a href='#' data-role='button' data-theme='c'><?= $forum->pageNum ?> of <?= $forum->totalPages?></a>
 		<?php if ($forum->pageNum != $forum->totalPages): ?>
-			<a href='?page=<?= $forum->pageNum + 1 ?>'
+			<a href='showForum.php?id=<?= $forum->id ?>&page=<?= $forum->pageNum + 1 ?>'
 			   data-theme='e' data-role='button' data-icon='arrow-r' data-iconpos='notext'>Next</a>
 		<?php endif ?>
 		</div>
